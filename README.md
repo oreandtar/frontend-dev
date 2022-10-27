@@ -4,6 +4,8 @@
 - NO authentication implementation of any sort is required
 - You are free to take advantage of any NPM packages that are available to assist you
 - Your styling abilities are being tested so you may only use CSS, SASS, Styled Components or Tailwind for building the UI 
+- Screenshots of light and dark theme versions of this application are provided for reference purposes, please attempt to recreate them as provided
+- Color code values are not provided to emulate real world situations where insufficient information is available, there are free online tools to extract colors from images but you will not be penalized for not having the exact color code values in your code
 - You must demonstrate an understanding of global state management by keeping track of the theme state without the prop drilling
 
 # BONUS 
