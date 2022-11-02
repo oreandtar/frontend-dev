@@ -1,0 +1,45 @@
+
+#light {
+    .social-feed {
+        background-color: #fff;
+      }
+    .btn{ 
+        background-color: #fff;
+        color: #000;
+    }  
+}
+
+  #dark{
+    .social-feed{
+        background-color: rgb(47, 45, 45);
+      }
+      .btn{ 
+        background-color: rgb(47, 45, 45);
+        color: #fff;
+    } 
+  } 
+ 
+  .social-feed{
+    h4{
+      font-weight: bold;
+      font-size:20px
+    }
+    p{
+      font-size:16px;
+      padding: 8px 0;
+    }
+  }
+  
+  .btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 13px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-weight: bold;
+  }
+
+  
+  
