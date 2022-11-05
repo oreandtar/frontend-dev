@@ -28,10 +28,10 @@ function App() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <div className="App pt-14 bg-gray-100 dark:bg-black">
+    <div className="App pt-14 bg-stone-100 dark:bg-black">
       
       <Feed />
-       <button className="fixed bg-white border border-gray-300 dark:border-none bottom-8 py-2 px-3 right-14 dark:bg-neutral-900 dark:text-white  p-1 rounded-3xl text-sm font-bold " onClick={handleThemeSwitch}>
+       <button className="sm:flex  md:fixed bg-white border border-gray-300 dark:border-none bottom-8 py-2 px-3 right-14 dark:bg-neutral-900 dark:text-white  p-1 rounded-3xl text-sm font-bold " onClick={handleThemeSwitch}>
         {
           theme ==='dark'? 'Switch To Lightmode':'Switch To Darkmode'
         }
