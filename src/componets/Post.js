@@ -9,7 +9,7 @@ function post({user,content}) {
                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {user}
                 </h5>
-                <p class="font-medium text-gray-700  dark:text-white">
+                <p class="font-normal text-gray-700 dark:text-white">
                  {content}
                 </p>
             </a>
